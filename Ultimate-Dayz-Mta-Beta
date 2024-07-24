@@ -1,0 +1,19 @@
+MTA DAYZ Gamemode
+
+Good, bug-free, lag-free, functional dayz gamemode.
+
+Installation
+
+Place all the files in resource folderAdd this to ACL
+
+<object name="resource.dayzepoch"></object> <object name="resource.e_login"></object> 
+
+" tabindex="0" role="button" style="box-sizing: border-box; position: relative; display: flex !important; padding: 0px !important; font-size: 14px; font-weight: var(--base-text-weight-medium, 500); line-height: 20px; white-space: nowrap; vertical-align: middle; cursor: pointer; user-select: none; border: 0px; border-radius: 6px; appearance: none; color: var(--fgColor-accent, var(--color-accent-fg)); background-color: transparent; box-shadow: none; transition: color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color, box-shadow, border-color; justify-content: center !important; align-items: center !important; margin: var(--base-size-8, 8px) !important; width: var(--control-small-size, 28px); height: var(--control-small-size, 28px);">
+
+Add this to mtaserver.conf
+
+<resource src="dayzepoch" startup="1" protected="0" /> <resource src="e_login" startup="1" protected="0" /> <resource src="dayzmap" startup="1" protected="0" /> <resource src="admin" startup="1" protected="0" /> <resource src="e_admin" startup="1" protected="0" /> <resource src="e_scoreboard" startup="1" protected="0" /> <resource src="e_downloader" startup="1" protected="0" /> <resource src="e_shop" startup="1" protected="0" /> <resource src="e_gps" startup="1" protected="0" /> <resource src="e_textures" startup="1" protected="0" /> <resource src="e_map" startup="1" protected="0" /> <resource src="e_radar" startup="1" protected="0" /> <resource src="e_dynamicsky" startup="1" protected="0" /> <resource src="particles" startup="1" protected="0" /> <resource src="noglitch" startup="1" protected="0" /> 
+
+" tabindex="0" role="button" style="box-sizing: border-box; position: relative; display: flex !important; padding: 0px !important; font-size: 14px; font-weight: var(--base-text-weight-medium, 500); line-height: 20px; white-space: nowrap; vertical-align: middle; cursor: pointer; user-select: none; border: 0px; border-radius: 6px; appearance: none; color: var(--fgColor-accent, var(--color-accent-fg)); background-color: transparent; box-shadow: none; transition: color 80ms cubic-bezier(0.33, 1, 0.68, 1) 0s, background-color, box-shadow, border-color; justify-content: center !important; align-items: center !important; margin: var(--base-size-8, 8px) !important; width: var(--control-small-size, 28px); height: var(--control-small-size, 28px);">
+
+and you're done!
